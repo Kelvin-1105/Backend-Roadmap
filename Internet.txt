@@ -1,5 +1,3 @@
-3 layers 
+The internet is physical, all interconnected through a wire in the ground. All servers have an internet protocol (IP) address. Computers are not servers, rather they are clients; via an Internet Service Provider (ISP) clients are connected to the internet. 
 
-jj
-	- 
-	- 
+Whenever information is sent through the internet it is broken down to packets. When at their destination, the packets reassemble to create the original message. As packets travel through the internet they will travel through many routers (10-15+), each time it travels through a router the router will add information about where to head to next and where it came from, like directions. The directions are made on the way to the server and then retraced on the way back. 
