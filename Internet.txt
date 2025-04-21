@@ -1,3 +1,32 @@
-The internet is physical, all interconnected through a wire in the ground. All servers have an internet protocol (IP) address. Computers are not servers, rather they are clients; via an Internet Service Provider (ISP) clients are connected to the internet. 
+The internet is a Global network of interconnected cmoputers that communicate using standardized protocols. When information is sent across the internet it is broken down into packets. The packets are then sent to a router that, at which point, are forwarded to the next router, the process repeats until the packets reach their  destination.
 
-Whenever information is sent through the internet it is broken down to packets. When at their destination, the packets reassemble to create the original message. As packets travel through the internet they will travel through many routers (10-15+), each time it travels through a router the router will add information about where to head to next and where it came from, like directions. The directions are made on the way to the server and then retraced on the way back. 
+- `Packet`: A small unit of data
+- `Router`: A device that direts packets of data between networks
+- `IP Address`: A unique identifier assigned to each device on a networks
+- `Domain Name`: A human-readable name used to identify websites; "google.com"
+- `DNS`: A system responsible for translating domain names into IP addresses
+- `HTTP`: Hypertext Transfer Protocol, used to transfer data between a client (web browser) and a server (website)
+- `HTTPS`: An encrypted version of HTTP used for security between client and server
+- `SSL/TLS`: Secure Sockets Layer and Transport Layer Security, used to probide secure communication over the internet
+
+Internet protocols define how information is exchanged between devices, ensuring reliablility and security. Standardized protocols allows for the communication of different manufacturers and vendors. 
+- `IP`: Internet Protocol, responsible for routing packets to correct destination
+- `TCP/UDP`: Transmission Control Protocol and User Datagram Protocol, ensure packets are transmitted reliably and efficiently
+- `DNS`: Domain Name System, used to translate domain names into IP addresses
+- `HTTP`: Transfers data between clients and servers
+
+* IP Addresses are computer-readable (192.168.1.1) Domain Names are human-readable (google.com), DNS translates Domain Names to IP Addresses.
+* HTTP and HTTPS are both protocols used to transfer data between client and server, while the latter is a more secure version of the former (using SSL/TLS encryption). 
+* TCP/IP is the most common communication protocol, and there are a few key concepts to understand:
+	- `Ports`: Identifies the application or service running on the device
+	- `Sockets`: Combination of IP address and port number
+	- `Connections`: Established between two Sockets, the devices negotiate parameters of communication 
+	- `Data Transfer`: Once a connection is established, data is transmitted in segments with each segment containing a sequence number and other metadata
+* SSL/TLS is a protocol used to encrypt data transmitted over the internet, and there are a few key concepts to understand:
+	- `Certificates`: Used to establish trust between client and server, contain information about server identity and are signed off by a trusted third party Certificate Authority to verify and establish trust
+	- `Handshake`: Client and Server exchange information to negotiate the encryption algorithm for a secure conneciton
+	- `Encryption`: Once a secure connection is established, data is encrypted using the agreed-upon algorithm, allowing secure data transfer between client and server
+* Emerging Trends and Technologies are constantly being developed as the internet is ever-evolving. It is essential to stay up-to-date with the space to maintain the best security practices and protocols available. 
+
+
+
