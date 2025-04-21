@@ -1,3 +1,6 @@
+# The Internet
+
+### An Overview
 The internet is a Global network of interconnected cmoputers that communicate using standardized protocols. When information is sent across the internet it is broken down into packets. The packets are then sent to a router that, at which point, are forwarded to the next router, the process repeats until the packets reach their  destination.
 
 - `Packet`: A small unit of data
@@ -9,6 +12,7 @@ The internet is a Global network of interconnected cmoputers that communicate us
 - `HTTPS`: An encrypted version of HTTP used for security between client and server
 - `SSL/TLS`: Secure Sockets Layer and Transport Layer Security, used to probide secure communication over the internet
 
+### Internet Protocols
 Internet protocols define how information is exchanged between devices, ensuring reliablility and security. Standardized protocols allows for the communication of different manufacturers and vendors. 
 - `IP`: Internet Protocol, responsible for routing packets to correct destination
 - `TCP/UDP`: Transmission Control Protocol and User Datagram Protocol, ensure packets are transmitted reliably and efficiently
@@ -28,5 +32,32 @@ Internet protocols define how information is exchanged between devices, ensuring
 	- `Encryption`: Once a secure connection is established, data is encrypted using the agreed-upon algorithm, allowing secure data transfer between client and server
 * Emerging Trends and Technologies are constantly being developed as the internet is ever-evolving. It is essential to stay up-to-date with the space to maintain the best security practices and protocols available. 
 
+---
+### HTTP
+HTTP is used to load pages on the internet using hyperlinks. HTTP is an application layer protocol and runs atop of the other layers of the netwrok protocol stack. 
 
+An HTTP request is the way internet communications playforms, such as web browsers, ask for the information they need to load a website. A typical HTTP request contains:
+- `HTTP method`: An HTTP method/verb specifies the action wanted from the queried server. 
+- `HTTP request header`: Contain core information, such as the data being requested 
+- `HTTP request body`: Portion of the request that contains information being submitted to the web server, such as username and password or any other data entered into a form. 
 
+An HTTP response is what the web client recieves from an internet server, these responses contain valuable information based on what was requested. A typical HTTP response contains:
+- `HTTP status code`: 3-digit codes used to indicate whether an HTTP request was successfully completed (1xx - Informational; 2xx Success; 3xx Redirection; 4xx Client Error; 5xx Server Error)
+- `HTTP response headers`: Similar to an HTTP request header, contains important information such as language and format of data being sent. 
+- `HTTP response body': Contains the requested information from the 'GET' requests within the HTTP request, commonly HTML data is sent to the client translating into a webpage 
+
+---
+### Domain Name vs URL
+Domain names are alphanumeric strings of text that map to an alphanumeric IP address. For example Google.com is a Domain Name but, with the help of DNS, it is translated into a numerical IP address (192.0.2.2) which is the actual address of the website. Domain Names are managed by domain registries, which delegate the reservation of domain names to registrars. 
+
+A URL (Uniform Resource Locator), sometimes called a web address, is the complete path you see on a search engine. For example, w3schools.com is the domain name but https://www.w3schools.com/python/python_variables.asp is the URL, it contains the protocol (https) and the path (/python/python_variables.asp)
+
+The section to the right of the last dot in a domain name is the TLD (top-level domain), they include the generic TLDs, such as:  ‘.com’, ‘.net’, ‘.org’, ‘.uk’ and ‘.jp’. To the left of the last dot is the 2LD (second-level domain) and anything to the left of that is the 3LD (third-level domain). For example:
+`google.com`
+- `.com` is the TLD
+- `google` is the 2LD
+
+`google.co.uk`
+- `.uk` is the TLD
+- `.co` is the 2LD
+- `google` is the 3LD 
