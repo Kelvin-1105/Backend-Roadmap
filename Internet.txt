@@ -36,7 +36,7 @@ Internet protocols define how information is exchanged between devices, ensuring
 ### HTTP
 HTTP is used to load pages on the internet using hyperlinks. HTTP is an application layer protocol and runs atop of the other layers of the netwrok protocol stack. 
 
-An HTTP request is the way internet communications playforms, such as web browsers, ask for the information they need to load a website. A typical HTTP request contains:
+An HTTP request is the way internet communications platforms, such as web browsers, ask for the information they need to load a website. A typical HTTP request contains:
 - `HTTP method`: An HTTP method/verb specifies the action wanted from the queried server. 
 - `HTTP request header`: Contain core information, such as the data being requested 
 - `HTTP request body`: Portion of the request that contains information being submitted to the web server, such as username and password or any other data entered into a form. 
@@ -61,3 +61,23 @@ The section to the right of the last dot in a domain name is the TLD (top-level 
 - `.uk` is the TLD
 - `.co` is the 2LD
 - `google` is the 3LD 
+
+---
+### Hosting
+A web server can refer to the computer that stores web server software and a webstie's component files (HTML documents, images, CSS stylesheets, JavaScript files). On the other hand, web server can also refer to the several parts that control how web users access hosted files. At a miniumum, this is an HTTP server that can be accessed through a domain name and deliver the websites content to the end user's device. 
+
+Whenever a browser needs a file that is hosted on a web server, the browser requests the file via HTTP. When the request reaches the web server,it locates the document, and sends it back to the browser, via HTTP. If the server does not find the requested document, it returns a 404 response. 
+
+A static web server, or stack, consists of a computer with an HTTP server. It is called a static web server because the server sends its hosted files as-is to your browser. On the other hand, a dynamic web server consists of a static web server plus extra software, typically an application server and database. It is called dynamic because the application server updates the hosted files before sending the content to your browser via the HTTP server. (For example the Wiki uses a couple HTML templates with a large database to present web pages, rather than thousands of static HTML documents for each Wiki page)
+
+Hosting Files
+A web server most store a website's files, namely HTML documents and its assets: images, CSS stylesheets, Javascript files, fonts, and video. For convenience it is recommended to host all the mentioned files on a dedicated web server, rather than on your PC, because:
+- Web servers have more reliable up-time
+- Web servers are rarely disconnected from the internet
+- Web servers have a dedicated constant IP address
+- Web servers are maintained by a third-party
+
+---
+### DNS
+DNS resolution is when an IP address is translated from a domain name. Ways to find the IP address are through: the User's Computer Cache, DNS Cache, Hosts File, Recursive DNS Servers Cache (from ISP), Root DNS Servers TLDs, TLD Server Name Server, Authoritative Name Server Domain Info. 
+
